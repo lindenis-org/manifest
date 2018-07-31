@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="https://github.com/lindenis-org" />
+	<default revision="v5" remote="origin" />
+	<project path="build" name="build" revision="master" >
+		<copyfile src="top_build.sh" dest="build.sh" />
+	</project>
+	<project path="debian" name="rootfs-build" revision="master" />
+	<project path="device" name="device" revision="master" />
+	<project path="kernel" name="kernel" revision="v5-official" />
+	<project path="tools" name="tools" revision="v5-official" />
+	<project path="u-boot" name="u-boot" revision="v5-official" />
+</manifest>
