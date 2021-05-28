@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/lindenis-org" />
+  <default revision="master" remote="origin" />
+  <project path="build" name="lindenis-v833-build"  >
+    <copyfile src="top_main.mk" dest="Makefile" />
+    <copyfile src="rules.mk" dest="rules.mk" />
+  </project>
+  <project path="config" name="lindenis-v833-config"  >
+    <copyfile src="top_config.in" dest="Config.in" />
+  </project>
+  <project path="docs" name="lindenis-v833-docs"  />
+  <project path="device" name="lindenis-v833-device"  />
+  <project path="lichee/brandy-2.0/tools" name="lindenis-v833-lichee-brandy-2.0-tools" >
+    <copyfile src="./build.sh" dest="lichee/brandy-2.0/build.sh" />
+  </project>
+  <project path="lichee/brandy-2.0/u-boot-2018" name="lindenis-v833-lichee-brandy-2.0-u-boot-2018" />
+  <project path="lichee/linux-4.9" name="lindenis-v833-lichee-linux-4.9"  />
+  <project path="package" name="lindenis-v833-package"  />
+  <project path="scripts" name="lindenis-v833-scripts"  />
+  <project path="softwinner" name="lindenis-v833-softwinner"  />
+  <project path="target" name="lindenis-v833-target"  />
+  <project path="toolchain" name="lindenis-v833-toolchain"  />
+  <project path="prebuilt" name="lindenis-v833-prebuilt"  />
+  <project path="tools" name="lindenis-v833-tools"  />
+</manifest>
