@@ -12,7 +12,7 @@
   <project path="docs" name="lindenis-v833-docs"  />
   <project path="device" name="lindenis-v833-device"  />
   <project path="lichee/brandy-2.0/tools" name="lindenis-v833-lichee-brandy-2.0-tools" >
-    <copyfile src="./build.sh" dest="lichee/brandy-2.0/build.sh" />
+    <copyfile src="build.sh" dest="lichee/brandy-2.0/build.sh" />
   </project>
   <project path="lichee/brandy-2.0/u-boot-2018" name="lindenis-v833-lichee-brandy-2.0-u-boot-2018" />
   <project path="lichee/linux-4.9" name="lindenis-v833-lichee-linux-4.9"  />
