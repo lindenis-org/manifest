@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/lindenis-org" />
+  <default revision="master" remote="origin" />
+  
+  <project name="lindenis-v853-lichee-brandy-2.0-tools" path="lichee/brandy-2.0/tools" >
+    <linkfile dest="lichee/brandy-2.0/build.sh" src="build.sh" />
+  </project>
+  <project name="lindenis-v853-lichee-brandy-2.0-u-boot-2018" path="lichee/brandy-2.0/u-boot-2018" />
+  <project name="lindenis-v853-lichee-brandy-2.0-spl-pub" path="lichee/brandy-2.0/spl-pub" />
+  <project name="lindenis-v853-lichee-linux-4.9" path="lichee/linux-4.9" />
+  <project name="lindenis-v853-lichee-melis-v3.0" path="lichee/melis-v3.0" />
+  <project name="lindenis-v853-lichee-rtos-hal" path="lichee/rtos-hal" />
+  <project name="lindenis-v853-build" path="build" >
+    <linkfile dest="Makefile" src="top_main.mk" />
+    <linkfile dest="rules.mk" src="rules.mk" />
+  </project>
+  <project name="lindenis-v853-config" path="config" >
+    <linkfile dest="Config.in" src="top_config.in" />
+  </project>
+  <project name="lindenis-v853-device" path="device" />
+  <project name="lindenis-v853-dl0" path=".dl0" />
+  <project name="lindenis-v853-dl1" path=".dl1" />
+  <project name="lindenis-v853-dl2" path=".dl2" />
+  <project name="lindenis-v853-docs" path="docs" />
+  <project name="lindenis-v853-package" path="package" />
+  <project name="lindenis-v853-prebuilt" path="prebuilt" />
+  <project name="lindenis-v853-scripts" path="scripts" />
+  <project name="lindenis-v853-target" path="target" />
+  <project name="lindenis-v853-toolchain" path="toolchain" />
+  <project name="lindenis-v853-tools" path="tools" />
+  <project name="lindenis-v853-external" path="external" />
+</manifest>
